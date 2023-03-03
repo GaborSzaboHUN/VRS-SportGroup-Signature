@@ -94,7 +94,8 @@ a {
 
 .horizontal-line {
     height: 1px;
-    background-color: rgba(255, 255, 255, .15);
+    background-color: var(--white-color);
+    opacity: .15;
 }
 
 .contact {
@@ -104,7 +105,11 @@ a {
 .fa-phone,
 .fa-envelope {
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--white-color);
+    opacity: .3;
+
+    transition-delay: .1s;
+    transition-duration: .3s;
 }
 
 
@@ -181,9 +186,26 @@ a {
 .fa-facebook-f,
 .fa-instagram,
 .fa-twitter {
+    color: var(--white-color);
     height: 13px;
     opacity: .3;
+
+    transition-delay: .1s;
+    transition-duration: .3s;
 }
+
+.fa-location-dot:hover,
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-phone:hover,
+.fa-envelope:hover {
+    opacity: .6;
+}
+
+
+
+/* - - - - - RESPONSIVITY - - - - - */
 
 @media screen and (max-width:750px) {
     .main-container {
