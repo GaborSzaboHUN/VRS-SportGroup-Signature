@@ -105,7 +105,7 @@ a {
 .fa-phone,
 .fa-envelope {
     font-size: 14px;
-    color: var(--white-color);
+    color: var(--tiffany-color);
     opacity: .3;
 
     transition-delay: .1s;
@@ -131,7 +131,7 @@ a {
     height: 90px;
     width: 90px;
     padding: 0;
-    background-image: url(/img/VRS-SportGroup-Logo.svg);
+    background-image: url(img/VRS-SportGroup-Logo.svg);
     background-repeat: no-repeat;
 }
 
@@ -186,7 +186,7 @@ a {
 .fa-facebook-f,
 .fa-instagram,
 .fa-twitter {
-    color: var(--white-color);
+    color: var(--tiffany-color);
     height: 13px;
     opacity: .3;
 
@@ -200,7 +200,7 @@ a {
 .fa-twitter:hover,
 .fa-phone:hover,
 .fa-envelope:hover {
-    opacity: .6;
+    opacity: .8;
 }
 
 
